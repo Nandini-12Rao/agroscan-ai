@@ -1,5 +1,5 @@
 // AgroScan AI - Plant disease prediction via Lovable AI Gemini vision
-import { corsHeaders } from "@supabase/supabase-js/cors";
+import { corsHeaders } from "npm:@supabase/supabase-js/cors";
 
 const LOVABLE_AI_URL = "https://ai.gateway.lovable.dev/v1/chat/completions";
 
