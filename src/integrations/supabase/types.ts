@@ -14,7 +14,108 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      diseases: {
+        Row: {
+          created_at: string
+          description: string
+          id: string
+          image_url: string | null
+          name: string
+          plant: string
+          symptoms: string[]
+          treatment: string[]
+        }
+        Insert: {
+          created_at?: string
+          description: string
+          id?: string
+          image_url?: string | null
+          name: string
+          plant: string
+          symptoms?: string[]
+          treatment?: string[]
+        }
+        Update: {
+          created_at?: string
+          description?: string
+          id?: string
+          image_url?: string | null
+          name?: string
+          plant?: string
+          symptoms?: string[]
+          treatment?: string[]
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          avatar_url: string | null
+          created_at: string
+          display_name: string | null
+          id: string
+          language: string
+          updated_at: string
+        }
+        Insert: {
+          avatar_url?: string | null
+          created_at?: string
+          display_name?: string | null
+          id: string
+          language?: string
+          updated_at?: string
+        }
+        Update: {
+          avatar_url?: string | null
+          created_at?: string
+          display_name?: string | null
+          id?: string
+          language?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      scan_history: {
+        Row: {
+          confidence: number | null
+          created_at: string
+          description: string | null
+          disease_name: string | null
+          id: string
+          image_url: string | null
+          is_healthy: boolean | null
+          plant_name: string | null
+          prevention: Json | null
+          remedies: Json | null
+          user_id: string
+        }
+        Insert: {
+          confidence?: number | null
+          created_at?: string
+          description?: string | null
+          disease_name?: string | null
+          id?: string
+          image_url?: string | null
+          is_healthy?: boolean | null
+          plant_name?: string | null
+          prevention?: Json | null
+          remedies?: Json | null
+          user_id: string
+        }
+        Update: {
+          confidence?: number | null
+          created_at?: string
+          description?: string | null
+          disease_name?: string | null
+          id?: string
+          image_url?: string | null
+          is_healthy?: boolean | null
+          plant_name?: string | null
+          prevention?: Json | null
+          remedies?: Json | null
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
