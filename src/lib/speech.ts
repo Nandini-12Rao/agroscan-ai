@@ -25,5 +25,5 @@ export const createRecognition = (lang: Lang) => {
   r.lang = ttsLang(lang);
   r.interimResults = false;
   r.maxAlternatives = 1;
-  return r as SpeechRecognition;
+  return r as any;
 };
