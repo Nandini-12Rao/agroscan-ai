@@ -301,6 +301,3 @@ AgroScan AI empowers farmers by:
 * Improving productivity
 * Supporting sustainable farming
 * Making AI accessible in regional languages
-
-
-ject useful, please consider giving it a star on GitHub!
