@@ -146,37 +146,6 @@ The platform is designed with accessibility, multilingual support, and mobile-fi
 
 ---
 
-## 📂 Project Structure
-
-```bash
-AgroScan-AI/
-│
-├── public/
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   ├── services/
-│   ├── contexts/
-│   ├── utils/
-│   ├── assets/
-│   └── translations/
-│
-├── cloud/
-│   ├── functions/
-│   ├── auth/
-│   └── storage/
-│
-├── database/
-│   └── schema.sql
-│
-├── package.json
-├── vite.config.ts
-└── README.md
-```
-
----
 
 ## 🚀 Application Flow
 
@@ -232,10 +201,7 @@ Treatment + Prevention
 | Background   | #F5FFF5                |
 | White Glass  | rgba(255,255,255,0.15) |
 
-### Typography
 
-* Poppins
-* Inter
 
 ### UI Principles
 
