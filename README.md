@@ -7,7 +7,6 @@
 ![PostgreSQL](https://img.shields.io/badge/Database-Postgres-blue)
 ![TailwindCSS](https://img.shields.io/badge/UI-TailwindCSS-38BDF8)
 ![Gemini](https://img.shields.io/badge/AI-Gemini%20Vision-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
